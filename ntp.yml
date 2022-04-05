@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   vars:
-   ntp_server: [pool.ntp.org, south-america.pool.ntp.org]
+   ntp_server: [pool.ntp.org, at.pool.ntp.org, ts1.univie.ac.at]
   tasks:
 
   - name: Install packages
